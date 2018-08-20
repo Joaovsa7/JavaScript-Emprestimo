@@ -16,8 +16,8 @@ let parcelas = Number (prompt("Em quantas parcelas?"));
 
 if (idade >= 22 && (idade <= 60 && salario >= 1500 && (emprest  >= 1000 && (10* salario)))) {
 
-    
-    alert(`Será parcelas ${parcelas} de ${1.6* emprest / parcelas}`);
+    let teste = Math.round(1.6* emprest / parcelas);
+    alert(`Será parcelas ${parcelas} de ${teste}`);
 }
 
 else { 
